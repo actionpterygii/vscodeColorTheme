@@ -1,191 +1,169 @@
 {
 	"tokenColors": [
 		{
+			"name": "HTMLMOJIRETSU_ENZANSHI",
+			"scope": [
+				"keyword",
+				"invalid",
+				"invalid.deprecated",
+				"text.html.derivative",
+				"keyword.operator.assignment",
+				"keyword.operator.type.annotation"
+			],
 			"settings": {
-				"background": "#333333",
-				"foreground": "#FFFFFF"
+				"foreground": "#FFF"
 			}
 		},
 		{
-			"name": "Comment",
-			"scope": "comment",
+			"name": "HENSU",
+			"scope": [
+				"variable",
+				"support.function",
+				"support.type",
+				"support.class",
+				"support.constant",
+				"support.other.variable",
+				"entity.other.attribute-name"
+			],
 			"settings": {
-				"foreground": "#66CC33"
+				"foreground": "#3CC"
 			}
 		},
 		{
-			"name": "String",
+			"name": "KURASU_KANSU",
+			"scope": [
+				"entity.name.function",
+			],
+			"settings": {
+				"foreground": "#FF6"
+			}
+		},
+		{
+			"name": "SHIKIBETSUSHI",
+			"scope": [
+				"constant.language",
+				"constant.character",
+				"keyword.control",
+				"keyword.control.import",
+				"keyword.operator",
+				"keyword.other",
+				"storage.type",
+				"entity.name.tag",
+				"punctuation.section.embedded"
+			],
+			"settings": {
+				"foreground": "#F9F"
+			}
+		},
+		{
+			"name": "SHIKIBETSUSHI",
+			"scope": [
+				"constant.other",
+				"storage",
+			],
+			"settings": {
+				"foreground": "#06F"
+			}
+		},
+		{
+			"name": "MOJIRETSU",
 			"scope": "string",
 			"settings": {
-				"foreground": "#FFFF66"
+				"foreground": "#F93"
 			}
 		},
 		{
-			"name": "Number",
-			"scope": "constant.numeric",
-			"settings": {
-				"foreground": "#FF99FF"
-			}
-		},
-		{
-			"name": "Built-in constant",
-			"scope": "constant.language",
-			"settings": {
-				"foreground": "#FF99FF"
-			}
-		},
-		{
-			"name": "User-defined constant",
+			"name": "SUUJI_BOOL",
 			"scope": [
-				"constant.character",
-				"constant.other"
+				"constant.numeric",
+				"constant.language"
 			],
 			"settings": {
-				"foreground": "#FF99FF"
+				"foreground": "#96F"
 			}
 		},
 		{
-			"name": "Variable",
-			"scope": "variable",
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#33CCCC"
-			}
-		},
-		{
-			"name": "Keyword",
-			"scope": "keyword",
-			"settings": {
-				"foreground": "#FFFFFF"
-			}
-		},
-		{
-			"name": "Storage",
-			"scope": "storage",
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#FF99FF"
-			}
-		},
-		{
-			"name": "Storage type",
-			"scope": "storage.type",
-			"settings": {
-				"foreground": "#FF99FF"
-			}
-		},
-		{
-			"name": "Class name",
-			"scope": "entity.name.class",
-			"settings": {
-				"foreground": "#FFFF66"
-			}
-		},
-		{
-			"name": "Inherited class",
-			"scope": "entity.other.inherited-class",
-			"settings": {
-				"foreground": "#FFFF66"
-			}
-		},
-		{
-			"name": "Function name",
-			"scope": "entity.name.function",
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#FFFF66"
-			}
-		},
-		{
-			"name": "Function argument",
-			"scope": "variable.parameter",
-			"settings": {
-				"foreground": "#33CCCC"
-			}
-		},
-		{
-			"name": "Tag name",
-			"scope": "entity.name.tag",
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#FF99FF"
-			}
-		},
-		{
-			"name": "Tag attribute",
-			"scope": "entity.other.attribute-name",
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#33CCCC"
-			}
-		},
-		{
-			"name": "Library function",
-			"scope": "support.function",
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#33CCCC"
-			}
-		},
-		{
-			"name": "Library constant",
-			"scope": "support.constant",
-			"settings": {
-				"fontStyle": "",
-				"foreground": "#33CCCC"
-			}
-		},
-		{
-			"name": "Library class/type",
+			"name": "KATA",
 			"scope": [
-				"support.type",
-				"support.class"
+				"entity.other.inherited-class",
+				"entity.name.class",
+				"entity.name.type",
+				"support.type.primitive"
 			],
 			"settings": {
-				"foreground": "#33CCCC"
+				"foreground": "#9F6"
 			}
 		},
 		{
-			"name": "Library variable",
-			"scope": "support.other.variable",
+			"name": "KOMENNTO",
+			"scope": "comment",
 			"settings": {
-				"fontStyle": "",
-				"foreground": "#33CCCC"
-			}
-		},
-		{
-			"name": "Invalid",
-			"scope": "invalid",
-			"settings": {
-				"background": "",
-				"fontStyle": "",
-				"foreground": "#FFFFFF"
-			}
-		},
-		{
-			"name": "Invalid deprecated",
-			"scope": "invalid.deprecated",
-			"settings": {
-				"background": "",
-				"foreground": "#FFFFFF"
+				"foreground": "#0C3"
 			}
 		}
 	],
 	"colors": {
-		"editor.background": "#333333",
-		"editorCursor.foreground": "#FFFFFF",
-		"editor.foreground": "#FFFFFF",
-		"editorWhitespace.foreground": "#333333",
-		"editor.lineHighlightBackground": "#333333",
-		"editor.selectionBackground": "#666666",
-		"activityBar.background":"#33CCCC",
-		"activityBar.foreground":"#FFFF66",
-		"sideBar.background":"#333333",
-		"sideBar.foreground":"#FFFFFF",
-		"sideBar.border":"#666666",
-		"statusBar.background":"#FF99FF",
-		"statusBar.foreground":"#FFFF66",
-		"statusBar.border":"#666666"
+		"focusBorder": "#444",
+		"foreground": "#FFF",
+		
+		"button.background": "#3CC",
+		"button.foreground": "#FFF",
+
+		"activityBarBadge.background": "#FF6",
+		"activityBarBadge.foreground": "#3CC",
+		
+		"editor.background": "#333",
+		"editor.foreground": "#FFF",
+		"editorGroup.border": "#444", 
+		"editorCursor.foreground": "#FFF",
+
+		"editorCodeLens.foreground": "#FFF",
+
+		"editor.selectionBackground": "#777",
+		"editor.selectionHighlightBackground": "#555",
+
+		"editorLineNumber.foreground": "#FFF",
+		"editorLineNumber.activeForeground": "#FFF",
+		"editor.lineHighlightBackground": "#444",
+
+		"editorWhitespace.foreground": "#555",
+
+		"editorBracketMatch.border": "#FF6",
+
+		"minimap.findMatchHighlight": "#888",
+
+		"scrollbarSlider.background": "#55555588",
+
+		"badge.foreground": "#FFF",
+		"badge.background" : "#333",
+
+		"activityBar.background":"#3CC",
+		"activityBar.foreground":"#FF6",
+
+		"sideBar.background":"#444",
+		"sideBar.foreground":"#FFF",
+		"sideBar.border":"#333",
+		"sideBarSectionHeader.background": "#333",
+		"sideBarTitle.foreground": "#FFF",
+
+		"list.activeSelectionBackground": "#333",
+		"list.hoverBackground": "#333",
+
+		"statusBar.background":"#3CC",
+		"statusBar.foreground":"#FF6",
+		"statusBar.debuggingBackground": "#3CC",
+		"statusBar.debuggingForeground": "#FF6",
+		"statusBar.noFolderBackground": "#3CC",
+		"statusBar.noFolderForeground": "#FF6",
+		"statusBar.border":"#3CC",
+
+		"editorGroupHeader.tabsBackground": "#444",
+		"tab.activeBackground": "#333",
+		"tab.activeForeground": "#FFF",
+		"tab.border": "#333", 
+		"tab.activeBorder": "#333",
+		"tab.inactiveBackground": "#444", 
+		"tab.inactiveForeground": "#FFF", 
 	},
 	"name": "actionpterygii"
 }
