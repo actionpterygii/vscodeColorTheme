@@ -7,8 +7,11 @@
 				"invalid",
 				"invalid.deprecated",
 				"text.html.derivative",
-				"keyword.operator.assignment",
-				"keyword.operator.type.annotation"
+				"keyword.operator",
+				"punctuation.separator.arguments",
+				"punctuation.definition",
+				"punctuation.parenthesis",
+				"keyword.other.period"
 			],
 			"settings": {
 				"foreground": "#FFF"
@@ -23,16 +26,19 @@
 				"support.class",
 				"support.constant",
 				"support.other.variable",
-				"entity.other.attribute-name"
+				"entity.other.attribute-name",
+				"constant.other.caps",
+				"meta.function-call.arguments"
 			],
 			"settings": {
 				"foreground": "#3CC"
 			}
 		},
 		{
-			"name": "KURASU_KANSU",
+			"name": "MOJIRETSU",
 			"scope": [
-				"entity.name.function",
+				"string",
+				"constant.character.format"
 			],
 			"settings": {
 				"foreground": "#FF6"
@@ -45,29 +51,24 @@
 				"constant.character",
 				"keyword.control",
 				"keyword.control.import",
-				"keyword.operator",
 				"keyword.other",
 				"storage.type",
 				"entity.name.tag",
-				"punctuation.section.embedded"
+				"punctuation.section.embedded",
+				"storage",
+				"keyword.operator.logical"
 			],
 			"settings": {
 				"foreground": "#F9F"
 			}
 		},
 		{
-			"name": "SHIKIBETSUSHI",
+			"name": "KANSU",
 			"scope": [
-				"constant.other",
-				"storage",
+				"entity.name.function",
+				"variable.other.property",
+				"meta.function-call.generic"
 			],
-			"settings": {
-				"foreground": "#06F"
-			}
-		},
-		{
-			"name": "MOJIRETSU",
-			"scope": "string",
 			"settings": {
 				"foreground": "#F93"
 			}
@@ -76,7 +77,10 @@
 			"name": "SUUJI_BOOL",
 			"scope": [
 				"constant.numeric",
-				"constant.language"
+				"constant.language",
+				"constant.other.color",
+				"support.constant",
+				"support.variable.magic"
 			],
 			"settings": {
 				"foreground": "#96F"
@@ -88,7 +92,8 @@
 				"entity.other.inherited-class",
 				"entity.name.class",
 				"entity.name.type",
-				"support.type.primitive"
+				"support.type.primitive",
+				"storage.type.elm"
 			],
 			"settings": {
 				"foreground": "#9F6"
@@ -96,9 +101,11 @@
 		},
 		{
 			"name": "KOMENNTO",
-			"scope": "comment",
+			"scope": [
+				"comment",
+			],
 			"settings": {
-				"foreground": "#0C3"
+				"foreground": "#093"
 			}
 		}
 	],
@@ -164,6 +171,9 @@
 		"tab.activeBorder": "#333",
 		"tab.inactiveBackground": "#444", 
 		"tab.inactiveForeground": "#FFF", 
+
+		"terminal.background": "#111",
+		"terminal.foreground": "#0F0"
 	},
 	"name": "actionpterygii"
 }
