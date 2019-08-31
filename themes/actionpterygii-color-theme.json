@@ -1,20 +1,58 @@
 {
 	"tokenColors": [
 		{
-			"name": "HTMLMOJIRETSU_ENZANSHI",
+			"name": "HTMLMOJIRETSU_ENZANSHI_KIGOU",
 			"scope": [
 				"keyword",
+				"meta.brace",
 				"invalid",
-				"invalid.deprecated",
 				"text.html.derivative",
 				"keyword.operator",
 				"punctuation.separator.arguments",
 				"punctuation.definition",
 				"punctuation.parenthesis",
-				"keyword.other.period"
+				"keyword.other.period",
+				"keyword.operator.logical",
+				"punctuation.section.function",
+				"punctuation.separator.delimiter",
+				"punctuation.separator.comma",
+				"punctuation.accessor",
+				"punctuation.section.array",
+				"punctuation.terminator.expression",
+				"support.function.construct",
+				"punctuation.terminator.statement",
+				"punctuation.bracket",
+				"punctuation.terminator",
+				"punctuation.section.method",
+				"punctuation.separator",
+				"keyword.other.colon",
+				"keyword.other.elm"
 			],
 			"settings": {
 				"foreground": "#FFF"
+			}
+		},
+		{
+			"name": "KATA_KURASU",
+			"scope": [
+				"meta.function.parameter.typehinted",
+				"meta.catch.parameters",
+				"entity.other.inherited-class",
+				"entity.other.attribute-name",
+				"entity.other.alias",
+				"entity.name.tag",
+				"entity.name.class",
+				"entity.name.type",
+				"entity.name.tag.reference",
+				"support.class",
+				"support.type.primitive",
+				"punctuation.definition.entity",
+				"storage.type.elm",
+				"storage.type.object",
+				"support.module.elm"
+			],
+			"settings": {
+				"foreground": "#9F6"
 			}
 		},
 		{
@@ -23,43 +61,17 @@
 				"variable",
 				"support.function",
 				"support.type",
-				"support.class",
 				"support.constant",
 				"support.other.variable",
-				"entity.other.attribute-name",
+				"entity.other.attribute-name.html",
 				"constant.other.caps",
-				"meta.function-call.arguments"
+				"meta.function-call.arguments",
+				"meta.at-rule.include",
+				"meta.value.elm",
+				"punctuation.definition.variable.php"
 			],
 			"settings": {
 				"foreground": "#3CC"
-			}
-		},
-		{
-			"name": "MOJIRETSU",
-			"scope": [
-				"string",
-				"constant.character.format"
-			],
-			"settings": {
-				"foreground": "#FF6"
-			}
-		},
-		{
-			"name": "SHIKIBETSUSHI",
-			"scope": [
-				"constant.language",
-				"constant.character",
-				"keyword.control",
-				"keyword.control.import",
-				"keyword.other",
-				"storage.type",
-				"entity.name.tag",
-				"punctuation.section.embedded",
-				"storage",
-				"keyword.operator.logical"
-			],
-			"settings": {
-				"foreground": "#F9F"
 			}
 		},
 		{
@@ -67,54 +79,82 @@
 			"scope": [
 				"entity.name.function",
 				"variable.other.property",
-				"meta.function-call.generic"
+				"meta.function-call.generic",
+				"meta.property-value",
+				"support.function.misc",
+				"entity.name.record.field.elm",
+				"constant.type-constructor.elm",
+				"record.name.elm",
+				"entity.name.record.field.accessor.elm"
 			],
 			"settings": {
 				"foreground": "#F93"
 			}
 		},
 		{
-			"name": "SUUJI_BOOL",
+			"name": "MOJIRETSU",
+			"scope": [
+				"string",
+				"constant.character.format",
+			],
+			"settings": {
+				"foreground": "#FF6"
+			}
+		},
+		{
+			"name": "SHIKIBETSUSHI_KI-WA-DO_BUN",
+			"scope": [
+				"meta.var.expr",
+				"constant.language",
+				"constant.character",
+				"keyword.control",
+				"keyword.other",
+				"keyword.blade",
+				"keyword.operator.new",
+				"keyword.operator.expression",
+				"keyword.operator.logical.python",
+				"storage.type.class",
+				"storage.type.function",
+				"storage.type.primitive",
+				"storage.modifier",
+				"punctuation.section.embedded",
+				"upport.function.construct.output",
+				"punctuation.definition.constant",
+				"punctuation.definition.keyword",
+				"keyword.type.elm",
+				"keyword.type-alias.elm"
+			],
+			"settings": {
+				"foreground": "#F9F"
+			}
+		},
+		{
+			"name": "SUUJI_NURU_TEISUU",
 			"scope": [
 				"constant.numeric",
 				"constant.language",
 				"constant.other.color",
-				"support.constant",
-				"support.variable.magic"
+				"support.constant.property-value",
+				"support.variable.magic",
 			],
 			"settings": {
 				"foreground": "#96F"
 			}
 		},
 		{
-			"name": "KATA",
-			"scope": [
-				"entity.other.inherited-class",
-				"entity.name.class",
-				"entity.name.type",
-				"support.type.primitive",
-				"storage.type.elm"
-			],
-			"settings": {
-				"foreground": "#9F6"
-			}
-		},
-		{
 			"name": "KOMENNTO",
 			"scope": [
 				"comment",
+				"punctuation.definition.comment",
 			],
 			"settings": {
-				"foreground": "#093"
+				"foreground": "#060"
 			}
 		}
 	],
 	"colors": {
 		"focusBorder": "#444",
 		"foreground": "#FFF",
-		
-		"button.background": "#3CC",
-		"button.foreground": "#FFF",
 
 		"activityBarBadge.background": "#FF6",
 		"activityBarBadge.foreground": "#3CC",
@@ -126,12 +166,18 @@
 
 		"editorCodeLens.foreground": "#FFF",
 
-		"editor.selectionBackground": "#777",
-		"editor.selectionHighlightBackground": "#555",
+		"editor.selectionBackground": "#888",
+		"editor.selectionHighlightBackground": "#666",
+
+		"editor.findMatchBackground": "#888",
+		"editor.findMatchHighlightBackground": "#666",
+
 
 		"editorLineNumber.foreground": "#FFF",
 		"editorLineNumber.activeForeground": "#FFF",
 		"editor.lineHighlightBackground": "#444",
+
+		"editor.rangeHighlightBackground": "#888",
 
 		"editorWhitespace.foreground": "#555",
 
@@ -140,6 +186,11 @@
 		"minimap.findMatchHighlight": "#888",
 
 		"scrollbarSlider.background": "#55555588",
+
+		"dropdown.background": "#444",
+		"dropdown.listBackground": "#444",
+		"dropdown.border":"#333", 
+		"dropdown.foreground":"#FFF",
 
 		"badge.foreground": "#FFF",
 		"badge.background" : "#333",
