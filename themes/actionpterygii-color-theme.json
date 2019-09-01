@@ -224,7 +224,7 @@
 		"tab.inactiveBackground": "#444", 
 		"tab.inactiveForeground": "#FFF", 
 
-		"terminal.background": "#111",
+		"terminal.background": "#000",
 		"terminal.foreground": "#0F0"
 	},
 	"name": "actionpterygii"
