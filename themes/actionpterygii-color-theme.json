@@ -68,7 +68,8 @@
 				"meta.function-call.arguments",
 				"meta.at-rule.include",
 				"meta.value.elm",
-				"punctuation.definition.variable.php"
+				"punctuation.definition.variable.php",
+				"storage.type.object.array.java"
 			],
 			"settings": {
 				"foreground": "#3CC"
