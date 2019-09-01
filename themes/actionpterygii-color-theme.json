@@ -69,7 +69,8 @@
 				"meta.at-rule.include",
 				"meta.value.elm",
 				"punctuation.definition.variable.php",
-				"storage.type.object.array.java"
+				"storage.type.object.array.java",
+				"meta.item-access.python"
 			],
 			"settings": {
 				"foreground": "#3CC"
@@ -86,7 +87,8 @@
 				"entity.name.record.field.elm",
 				"constant.type-constructor.elm",
 				"record.name.elm",
-				"entity.name.record.field.accessor.elm"
+				"entity.name.record.field.accessor.elm",
+				"support.function.builtin.python"
 			],
 			"settings": {
 				"foreground": "#F93"
