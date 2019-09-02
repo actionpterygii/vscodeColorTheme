@@ -5,6 +5,8 @@
 			"scope": [
 				"keyword",
 				"meta.brace",
+				"support.function.construct.begin.blade",
+				"support.function.construct.end.blade",
 				"invalid",
 				"text.html.derivative",
 				"keyword.operator",
@@ -19,7 +21,6 @@
 				"punctuation.accessor",
 				"punctuation.section.array",
 				"punctuation.terminator.expression",
-				"support.function.construct",
 				"punctuation.terminator.statement",
 				"punctuation.bracket",
 				"punctuation.terminator",
@@ -49,7 +50,9 @@
 				"punctuation.definition.entity",
 				"storage.type.elm",
 				"storage.type.object",
-				"support.module.elm"
+				"support.module.elm",
+				"support.other.namespace",
+				"storage.type.php"
 			],
 			"settings": {
 				"foreground": "#9F6"
@@ -59,7 +62,6 @@
 			"name": "HENSU",
 			"scope": [
 				"variable",
-				"support.function",
 				"support.type",
 				"support.constant",
 				"support.other.variable",
@@ -70,6 +72,7 @@
 				"meta.value.elm",
 				"punctuation.definition.variable.php",
 				"storage.type.object.array.java",
+				"variable.other.property",
 				"meta.item-access.python"
 			],
 			"settings": {
@@ -80,10 +83,9 @@
 			"name": "KANSU",
 			"scope": [
 				"entity.name.function",
-				"variable.other.property",
 				"meta.function-call.generic",
 				"meta.property-value",
-				"support.function.misc",
+				"support.function",
 				"entity.name.record.field.elm",
 				"constant.type-constructor.elm",
 				"record.name.elm",
@@ -121,7 +123,6 @@
 				"storage.type.primitive",
 				"storage.modifier",
 				"punctuation.section.embedded",
-				"upport.function.construct.output",
 				"punctuation.definition.constant",
 				"punctuation.definition.keyword",
 				"keyword.type.elm",
