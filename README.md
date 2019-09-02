@@ -76,6 +76,7 @@ Class,型,HTMLタグ名,CSSセレクタ
 - HTMLのタグ名やCSSのセレクタはClassではないか<-???????
 - HTMLのinnerは文字列なんやけどほぼ慣習的に白みたいなとこある。タグ自体のとかぶるのは良くないしえ
 - `"uiTheme": "vs-dark"`
+- `blade`の`session`とか色つけたいよーーおねがいしますーー
 
 ## 参考
 
