@@ -27,7 +27,9 @@
 				"punctuation.section.method",
 				"punctuation.separator",
 				"keyword.other.colon",
-				"keyword.other.elm"
+				"keyword.other.elm",
+				"string.other.link.title.markdown",
+				"string.other.link.description.markdown"
 			],
 			"settings": {
 				"foreground": "#FFF"
@@ -52,7 +54,8 @@
 				"storage.type.object",
 				"support.module.elm",
 				"support.other.namespace",
-				"storage.type.php"
+				"storage.type.php",
+				"punctuation.definition.list.begin.markdown"
 			],
 			"settings": {
 				"foreground": "#9F6"
@@ -73,7 +76,9 @@
 				"punctuation.definition.variable.php",
 				"storage.type.object.array.java",
 				"variable.other.property",
-				"meta.item-access.python"
+				"meta.item-access.python",
+				"punctuation.definition.raw.markdown",
+				"markup.inline.raw.string.markdown"
 			],
 			"settings": {
 				"foreground": "#3CC"
@@ -90,7 +95,12 @@
 				"constant.type-constructor.elm",
 				"record.name.elm",
 				"entity.name.record.field.accessor.elm",
-				"support.function.builtin.python"
+				"support.function.builtin.python",
+				"punctuation.definition.bold.markdown",
+				"punctuation.definition.markdown",
+				"markup.fenced_code.block.markdown",
+				"markup.bold.markdown"
+
 			],
 			"settings": {
 				"foreground": "#F93"
@@ -101,6 +111,8 @@
 			"scope": [
 				"string",
 				"constant.character.format",
+				"markup.underline.link.image.markdown",
+				"markup.underline.link.markdown"
 			],
 			"settings": {
 				"foreground": "#FF6"
@@ -126,7 +138,9 @@
 				"punctuation.definition.constant",
 				"punctuation.definition.keyword",
 				"keyword.type.elm",
-				"keyword.type-alias.elm"
+				"keyword.type-alias.elm",
+				"punctuation.definition.heading.markdown",
+				"entity.name.section.markdown"
 			],
 			"settings": {
 				"foreground": "#F9F"
