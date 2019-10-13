@@ -200,7 +200,7 @@
 		"editorLineNumber.activeForeground": "#FFF",
 		"editor.lineHighlightBackground": "#444",
 
-		"editor.rangeHighlightBackground": "#888",
+		"editor.rangeHighlightBackground": "#444",
 
 		"editorWhitespace.foreground": "#555",
 
