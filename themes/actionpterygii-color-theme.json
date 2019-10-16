@@ -30,6 +30,7 @@
 				"keyword.other.elm",
 				"string.other.link.title.markdown",
 				"string.other.link.description.markdown",
+				"meta.var.expr.ts"
 			],
 			"settings": {
 				"foreground": "#FFF"
@@ -82,6 +83,7 @@
 				"markup.inline.raw.string.markdown",
 				"punctuation.definition.markdown",
 				"markup.fenced_code.block.markdown",
+				"support.variable.property.ts"
 			],
 			"settings": {
 				"foreground": "#3CC"
@@ -145,6 +147,9 @@
 				"keyword.type-alias.elm",
 				"punctuation.definition.heading.markdown",
 				"entity.name.section.markdown",
+				"storage.type.interface.ts",
+				"storage.type.type.ts",
+				"storage.type.ts"
 			],
 			"settings": {
 				"foreground": "#F9F"
