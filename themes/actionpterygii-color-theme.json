@@ -83,7 +83,7 @@
 				"markup.inline.raw.string.markdown",
 				"punctuation.definition.markdown",
 				"markup.fenced_code.block.markdown",
-				"support.variable.property.ts"
+				"support.variable.property"
 			],
 			"settings": {
 				"foreground": "#3CC"
