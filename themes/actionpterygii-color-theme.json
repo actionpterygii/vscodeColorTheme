@@ -83,7 +83,8 @@
 				"markup.inline.raw.string.markdown",
 				"punctuation.definition.markdown",
 				"markup.fenced_code.block.markdown",
-				"support.variable.property"
+				"support.variable.property",
+				"constant.other.php"
 			],
 			"settings": {
 				"foreground": "#3CC"
@@ -105,8 +106,6 @@
 				"markup.bold.markdown",
 				"punctuation.definition.italic.markdown",
 				"markup.italic.markdown",
-
-
 			],
 			"settings": {
 				"foreground": "#F93"
