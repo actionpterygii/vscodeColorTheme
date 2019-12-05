@@ -217,6 +217,9 @@
 		"dropdown.border":"#333", 
 		"dropdown.foreground":"#FFF",
 
+		"inputOption.activeBackground": "#555",
+		"inputOption.activeBorder" : "#555",
+
 		"badge.foreground": "#FFF",
 		"badge.background" : "#333",
 
