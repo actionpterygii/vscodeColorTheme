@@ -84,7 +84,8 @@
 				"punctuation.definition.markdown",
 				"markup.fenced_code.block.markdown",
 				"support.variable.property",
-				"constant.other.php"
+				"constant.other.php",
+				"meta.object-literal"
 			],
 			"settings": {
 				"foreground": "#3CC"
