@@ -85,7 +85,8 @@
 				"markup.fenced_code.block.markdown",
 				"support.variable.property",
 				"constant.other.php",
-				"meta.object-literal"
+				"meta.object-literal",
+				"entity.other.attribute-name.js.jsx"
 			],
 			"settings": {
 				"foreground": "#3CC"
