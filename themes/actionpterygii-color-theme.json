@@ -30,7 +30,8 @@
 				"keyword.other.elm",
 				"string.other.link.title.markdown",
 				"string.other.link.description.markdown",
-				"meta.var.expr.ts"
+				"meta.var.expr.ts",
+				"meta.embedded.block.html"
 			],
 			"settings": {
 				"foreground": "#FFF"
@@ -128,7 +129,6 @@
 		{
 			"name": "SHIKIBETSUSHI_KI-WA-DO_BUN",
 			"scope": [
-				"meta.var.expr",
 				"constant.language",
 				"constant.character",
 				"keyword.control",
@@ -150,7 +150,8 @@
 				"entity.name.section.markdown",
 				"storage.type.interface.ts",
 				"storage.type.type.ts",
-				"storage.type.ts"
+				"storage.type.ts",
+				"storage.type.js"
 			],
 			"settings": {
 				"foreground": "#F9F"
