@@ -42,6 +42,7 @@
 			"scope": [
 				"meta.function.parameter.typehinted",
 				"meta.catch.parameters",
+				"invalid.deprecated.html",
 				"entity.other.inherited-class",
 				"entity.other.attribute-name",
 				"entity.other.alias",
@@ -72,6 +73,8 @@
 				"support.constant",
 				"support.other.variable",
 				"entity.other.attribute-name.html",
+				"invalid.deprecated.entity.other.attribute-name.html",
+				"entity.other.attribute-name.xml",
 				"constant.other.caps",
 				"meta.function-call.arguments",
 				"meta.at-rule.include",
