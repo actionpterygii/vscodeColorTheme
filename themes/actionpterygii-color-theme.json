@@ -60,6 +60,7 @@
 				"storage.type.php",
 				"punctuation.definition.list.begin.markdown",
 				"punctuation.definition.quote.begin.markdown",
+				"support.type.builtin.ts"
 			],
 			"settings": {
 				"foreground": "#9F6"
