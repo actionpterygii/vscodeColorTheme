@@ -153,6 +153,7 @@
 				"keyword.type-alias.elm",
 				"punctuation.definition.heading.markdown",
 				"entity.name.section.markdown",
+				"storage.type.property.ts",
 				"storage.type.interface.ts",
 				"storage.type.type.ts",
 				"storage.type.ts",
