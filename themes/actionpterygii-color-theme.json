@@ -113,7 +113,7 @@
 				"punctuation.definition.bold.markdown",
 				"markup.bold.markdown",
 				"punctuation.definition.italic.markdown",
-				"markup.italic.markdown",
+				"markup.italic.markdown"
 			],
 			"settings": {
 				"foreground": "#F93"
@@ -125,7 +125,7 @@
 				"string",
 				"constant.character.format",
 				"markup.underline.link.image.markdown",
-				"markup.underline.link.markdown",
+				"markup.underline.link.markdown"
 			],
 			"settings": {
 				"foreground": "#FF6"
@@ -172,6 +172,7 @@
 				"support.constant.property-value",
 				"support.variable.magic",
 				"meta.separator.markdown",
+				"constant.character.numeric.regexp"
 			],
 			"settings": {
 				"foreground": "#96F"
