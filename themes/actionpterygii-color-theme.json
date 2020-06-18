@@ -60,7 +60,9 @@
 				"storage.type.elm",
 				"support.module.elm",
 				"support.type.builtin.ts",
-				"storage.type.php"
+				"storage.type.php",
+				"string.rainbow5",
+				"invalid.rainbow10"
 			],
 			"settings": {
 				"foreground": "#9F6"
@@ -92,7 +94,10 @@
 				"constant.other.php",
 				"punctuation.definition.variable.php",
 				"storage.type.object.array.java",
-				"meta.item-access.python"
+				"meta.item-access.python",
+				"keyword.rainbow2",
+				"constant.numeric.rainbow7"
+
 			],
 			"settings": {
 				"foreground": "#3CC"
@@ -113,7 +118,8 @@
 				"constant.type-constructor.elm",
 				"record.name.elm",
 				"entity.name.record.field.accessor.elm",
-				"support.function.builtin.python"
+				"support.function.builtin.python",
+				"rainbow1"
 			],
 			"settings": {
 				"foreground": "#F93"
@@ -125,7 +131,9 @@
 				"string",
 				"constant.character.format",
 				"markup.underline.link.image.markdown",
-				"markup.underline.link.markdown"
+				"markup.underline.link.markdown",
+				"entity.name.function.rainbow3",
+				"entity.name.type.rainbow8"
 			],
 			"settings": {
 				"foreground": "#FF6"
@@ -157,7 +165,10 @@
 				"storage.type.interface.ts",
 				"storage.type.type.ts",
 				"storage.type.ts",
-				"keyword.operator.logical.python"
+				"keyword.operator.logical.python",
+				"comment.rainbow4",
+				"markup.bold.rainbow9"
+
 			],
 			"settings": {
 				"foreground": "#F9F"
@@ -172,7 +183,8 @@
 				"constant.character.numeric.regexp",
 				"support.constant.property-value",
 				"support.variable.magic",
-				"meta.separator.markdown"
+				"meta.separator.markdown",
+				"variable.parameter.rainbow6"
 			],
 			"settings": {
 				"foreground": "#96F"
