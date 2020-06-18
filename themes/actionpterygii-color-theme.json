@@ -3,18 +3,16 @@
 		{
 			"name": "HTMLMOJIRETSU_ENZANSHI_KIGOU",
 			"scope": [
-				"keyword",
-				"meta.brace",
-				"support.function.construct.begin.blade",
-				"support.function.construct.end.blade",
 				"invalid",
-				"text.html.derivative",
+				"keyword",
 				"keyword.operator",
+				"keyword.other.colon",
+				"keyword.other.period",
+				"keyword.operator.logical",
+				"meta.brace",
 				"punctuation.separator.arguments",
 				"punctuation.definition",
 				"punctuation.parenthesis",
-				"keyword.other.period",
-				"keyword.operator.logical",
 				"punctuation.section.function",
 				"punctuation.separator.delimiter",
 				"punctuation.separator.comma",
@@ -26,12 +24,14 @@
 				"punctuation.terminator",
 				"punctuation.section.method",
 				"punctuation.separator",
-				"keyword.other.colon",
-				"keyword.other.elm",
 				"string.other.link.title.markdown",
 				"string.other.link.description.markdown",
-				"meta.var.expr.ts",
-				"meta.embedded.block.html"
+				"meta.embedded.block.html",
+				"text.html.derivative",
+				"support.function.construct.begin.blade",
+				"support.function.construct.end.blade",
+				"keyword.other.elm",
+				"meta.var.expr.ts"
 			],
 			"settings": {
 				"foreground": "#FFF"
@@ -42,7 +42,6 @@
 			"scope": [
 				"meta.function.parameter.typehinted",
 				"meta.catch.parameters",
-				"invalid.deprecated.html",
 				"entity.other.inherited-class",
 				"entity.other.attribute-name",
 				"entity.other.alias",
@@ -50,17 +49,18 @@
 				"entity.name.class",
 				"entity.name.type",
 				"entity.name.tag.reference",
+				"storage.type.object",
 				"support.class",
+				"support.other.namespace",
 				"support.type.primitive",
 				"punctuation.definition.entity",
-				"storage.type.elm",
-				"storage.type.object",
-				"support.module.elm",
-				"support.other.namespace",
-				"storage.type.php",
 				"punctuation.definition.list.begin.markdown",
 				"punctuation.definition.quote.begin.markdown",
-				"support.type.builtin.ts"
+				"invalid.deprecated.html",
+				"storage.type.elm",
+				"support.module.elm",
+				"support.type.builtin.ts",
+				"storage.type.php"
 			],
 			"settings": {
 				"foreground": "#9F6"
@@ -73,26 +73,26 @@
 				"support.type",
 				"support.constant",
 				"support.other.variable",
-				"entity.other.attribute-name.html",
-				"invalid.deprecated.entity.other.attribute-name.html",
-				"entity.other.attribute-name.xml",
-				"entity.other.attribute-name.localname.xml",
+				"support.variable.property",
 				"constant.other.caps",
 				"meta.function-call.arguments",
 				"meta.at-rule.include",
-				"meta.value.elm",
-				"punctuation.definition.variable.php",
-				"storage.type.object.array.java",
+				"meta.object-literal",
 				"variable.other.property",
-				"meta.item-access.python",
 				"punctuation.definition.raw.markdown",
 				"markup.inline.raw.string.markdown",
 				"punctuation.definition.markdown",
 				"markup.fenced_code.block.markdown",
-				"support.variable.property",
+				"entity.other.attribute-name.xml",
+				"entity.other.attribute-name.localname.xml",
+				"entity.other.attribute-name.html",
+				"invalid.deprecated.entity.other.attribute-name.html",
+				"meta.value.elm",
+				"entity.other.attribute-name.js.jsx",
 				"constant.other.php",
-				"meta.object-literal",
-				"entity.other.attribute-name.js.jsx"
+				"punctuation.definition.variable.php",
+				"storage.type.object.array.java",
+				"meta.item-access.python"
 			],
 			"settings": {
 				"foreground": "#3CC"
@@ -105,15 +105,15 @@
 				"meta.function-call.generic",
 				"meta.property-value",
 				"support.function",
+				"punctuation.definition.bold.markdown",
+				"markup.bold.markdown",
+				"punctuation.definition.italic.markdown",
+				"markup.italic.markdown",
 				"entity.name.record.field.elm",
 				"constant.type-constructor.elm",
 				"record.name.elm",
 				"entity.name.record.field.accessor.elm",
-				"support.function.builtin.python",
-				"punctuation.definition.bold.markdown",
-				"markup.bold.markdown",
-				"punctuation.definition.italic.markdown",
-				"markup.italic.markdown"
+				"support.function.builtin.python"
 			],
 			"settings": {
 				"foreground": "#F93"
@@ -141,7 +141,6 @@
 				"keyword.blade",
 				"keyword.operator.new",
 				"keyword.operator.expression",
-				"keyword.operator.logical.python",
 				"storage.type.class",
 				"storage.type.function",
 				"storage.type.primitive",
@@ -149,15 +148,16 @@
 				"punctuation.section.embedded",
 				"punctuation.definition.constant",
 				"punctuation.definition.keyword",
-				"keyword.type.elm",
-				"keyword.type-alias.elm",
 				"punctuation.definition.heading.markdown",
 				"entity.name.section.markdown",
+				"keyword.type.elm",
+				"keyword.type-alias.elm",
+				"storage.type.js",
 				"storage.type.property.ts",
 				"storage.type.interface.ts",
 				"storage.type.type.ts",
 				"storage.type.ts",
-				"storage.type.js"
+				"keyword.operator.logical.python"
 			],
 			"settings": {
 				"foreground": "#F9F"
@@ -169,10 +169,10 @@
 				"constant.numeric",
 				"constant.language",
 				"constant.other.color",
+				"constant.character.numeric.regexp",
 				"support.constant.property-value",
 				"support.variable.magic",
-				"meta.separator.markdown",
-				"constant.character.numeric.regexp"
+				"meta.separator.markdown"
 			],
 			"settings": {
 				"foreground": "#96F"
